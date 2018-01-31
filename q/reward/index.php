@@ -1,6 +1,6 @@
 <?php 
 $data_string = '{"jsonrpc":"2.0","id":"test","method":"getlastblockheader","params":" "}';
-$ch = curl_init('http://199.247.6.128:7620/json_rpc');
+$ch = curl_init('http://explorer.ricochet.pro/json_rpc');
 curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");
 curl_setopt($ch, CURLOPT_POSTFIELDS, $data_string);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
