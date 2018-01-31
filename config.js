@@ -6,7 +6,7 @@ var api = 'http://199.247.6.128:7620';
 var blockTargetInterval = 120;
 var coinUnits = 100000000;
 var symbol = 'RIT';
-var refreshDelay = 30000;
+var refreshDelay = 30;
 // pools stats by MainCoins
 var networkStat = {
     "RIT": [
