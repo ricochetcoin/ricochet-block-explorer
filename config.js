@@ -2,14 +2,14 @@
 if(window.location.port !== undefined || window.location.port.length > 0) {
     api += ':' + window.location.port;
 }*/
-var api = 'http://explorer.coin.inbest.cloud:27175';
-var blockTargetInterval = 240;
-var coinUnits = 1000000000000;
-var symbol = 'INC';
+var api = 'http://199.247.6.128:7620';
+var blockTargetInterval = 120;
+var coinUnits = 100000000;
+var symbol = 'RIT';
 var refreshDelay = 30000;
 // pools stats by MainCoins
 var networkStat = {
-    "INC": [
+    "RIT": [
 		//["turtlepool.space", "http://eu.turtlepool.space:8117"],
     ]
 };
